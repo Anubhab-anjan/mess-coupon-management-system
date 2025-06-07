@@ -1,6 +1,6 @@
 # mcms
 mess_coupon_sytem_management
-In this python project, we will build a grocery store management application. It will be 3 tier application,
+In this python project, we will build a mess coupon management application. It will be 3 tier application,
 
 Front end: UI is written in HTML/CSS/Javascript/Bootstrap
 
