@@ -1,21 +1,66 @@
-# mcms
-mess_coupon_sytem_management
-In this python project, we will build a mess coupon management application. It will be 3 tier application,
+# 🍽️ Mess Coupon Management System
 
-Front end: UI is written in HTML/CSS/Javascript/Bootstrap
+> A smart solution to streamline mess coupon purchasing and management using **Python Flask**, **MySQL**, and **Bootstrap**.
 
-Backend: Python and Flask
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Flask](https://img.shields.io/badge/Framework-Flask-lightgrey)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-Database: mysql
-Feb 2024-March 02
-Mess coupon Management System
+---
 
-Built grocery store management system using HTML, CSS, JavaScript and Bootstrap as a frontend, Python as backend, MySQL as a database and Github as a version control system to maintain the codebase
+## ✨ Features
 
-Helped college Mess automate their order and inventory management processes which saved them so much time & effort after the launch
+🔹 **Student Dashboard**  
+• View daily/weekly menus  
+• Purchase coupons  
+• Track meal history  
 
-Used Flask as a web server framework to serve HTTP requests coming from the frontend
+🔹 **Mess Admin Panel**  
+• Add/update menu & meal prices  
+• View purchase records  
+• Manage coupon inventory  
 
-Used sqlalchemy module to interact with MySQL database from Python backend
+🔹 **Additional Highlights**  
+• Responsive UI with Bootstrap  
+• Seamless MySQL integration  
+• Flask-powered RESTful backend  
 
-Worked in a group of three team members and used JIRA for scrum project management
+---
+
+## 📸 Sneak Peek
+
+<img src="https://user-images.githubusercontent.com/your-image-link" alt="UI Preview" width="600"/>
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer       | Technology             |
+|-------------|------------------------|
+| Frontend    | HTML, CSS, JS, Bootstrap |
+| Backend     | Python, Flask          |
+| Database    | MySQL + SQLAlchemy     |
+| Tools       | Git, JIRA (Agile)      |
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Anubhab-anjan/mess-coupon-management-system.git
+cd mess-coupon-management-system
+
+# 2. (Optional) Create a virtual environment
+python -m venv venv
+source venv/bin/activate  # or .\venv\Scripts\activate on Windows
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Set up your MySQL database
+# Create a DB and update the config in the app
+
+# 5. Run the app
+flask run
